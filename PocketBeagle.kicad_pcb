@@ -473,6 +473,36 @@
     (add_net VIN.BAT)
   )
 
+  (module PocketBeagle.pretty:RN0804 (layer Top) (tedit 599255E1) (tstamp 59984602)
+    (at 155.1387 97.3576 270)
+    (path /599223A7)
+    (attr smd)
+    (fp_text reference R5 (at -0.00702 -1.65296 270) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.127)))
+    )
+    (fp_text value 10k (at 0 0 270) (layer F.SilkS) hide
+      (effects (font (thickness 0.15)))
+    )
+    (fp_line (start -0.99822 -0.01778) (end -0.99822 0.01778) (layer F.SilkS) (width 0.254))
+    (fp_line (start 0.99822 -0.01778) (end 0.99822 0.01778) (layer F.SilkS) (width 0.254))
+    (pad 1 smd rect (at -0.8001 0.49784 270) (size 0.49784 0.49784) (layers Top F.Paste F.Mask)
+      (net 87 "/(U1.C8)AIN5~1.8V"))
+    (pad 2 smd rect (at -0.24892 0.49784 270) (size 0.29972 0.49784) (layers Top F.Paste F.Mask)
+      (net 87 "/(U1.C8)AIN5~1.8V"))
+    (pad 3 smd rect (at 0.24892 0.49784 270) (size 0.29972 0.49784) (layers Top F.Paste F.Mask)
+      (net 86 "/(U1.C9)AIN6~1.8V"))
+    (pad 4 smd rect (at 0.8001 0.49784 270) (size 0.49784 0.49784) (layers Top F.Paste F.Mask)
+      (net 86 "/(U1.C9)AIN6~1.8V"))
+    (pad 5 smd rect (at 0.8001 -0.49784 270) (size 0.49784 0.49784) (layers Top F.Paste F.Mask)
+      (net 1 GND))
+    (pad 6 smd rect (at 0.24892 -0.49784 270) (size 0.29972 0.49784) (layers Top F.Paste F.Mask)
+      (net 72 "/(U1.F2)AIN6~3.3V"))
+    (pad 7 smd rect (at -0.24892 -0.49784 270) (size 0.29972 0.49784) (layers Top F.Paste F.Mask)
+      (net 42 "/(U1.F3)AIN5~3.3V"))
+    (pad 8 smd rect (at -0.8001 -0.49784 270) (size 0.49784 0.49784) (layers Top F.Paste F.Mask)
+      (net 1 GND))
+  )
+
   (module PocketBeagle.pretty:RN0804 (layer Top) (tedit 59925524) (tstamp 5998263A)
     (at 124.0491 116.0266 180)
     (path /599222DF)
@@ -1001,7 +1031,7 @@
       (net 43 "/(U1.N13)AIN7~1.8V"))
   )
 
-  (module B1_27 (layer Bottom) (tedit 59923C5C) (tstamp 59937E6F)
+  (module PocketBeagle.pretty:B1_27 (layer Bottom) (tedit 59923C5C) (tstamp 59937E6F)
     (at 170.5011 102.7536 270)
     (descr "TEST PAD")
     (tags "TEST PAD")
@@ -1022,7 +1052,7 @@
       (net 166 /JTAG_EMU0))
   )
 
-  (module B1_27 (layer Bottom) (tedit 59923BBF) (tstamp 59937E68)
+  (module PocketBeagle.pretty:B1_27 (layer Bottom) (tedit 59923BBF) (tstamp 59937E68)
     (at 172.0011 101.6286 270)
     (descr "TEST PAD")
     (tags "TEST PAD")
@@ -1043,7 +1073,7 @@
       (net 165 /JTAG_EMU1))
   )
 
-  (module B1_27 (layer Bottom) (tedit 59923C02) (tstamp 59937E61)
+  (module PocketBeagle.pretty:B1_27 (layer Bottom) (tedit 59923C02) (tstamp 59937E61)
     (at 172.0011 106.1286 270)
     (descr "TEST PAD")
     (tags "TEST PAD")
@@ -1064,7 +1094,7 @@
       (net 176 /JTAG_TRST#))
   )
 
-  (module B1_27 (layer Bottom) (tedit 59923C82) (tstamp 59937E45)
+  (module PocketBeagle.pretty:B1_27 (layer Bottom) (tedit 59923C82) (tstamp 59937E45)
     (at 170.5011 105.0036 270)
     (descr "TEST PAD")
     (tags "TEST PAD")
@@ -1085,7 +1115,7 @@
       (net 177 /JTAG_TMS))
   )
 
-  (module B1_27 (layer Bottom) (tedit 59923C2A) (tstamp 59937E3E)
+  (module PocketBeagle.pretty:B1_27 (layer Bottom) (tedit 59923C2A) (tstamp 59937E3E)
     (at 172.0011 108.3786 270)
     (descr "TEST PAD")
     (tags "TEST PAD")
@@ -1106,7 +1136,7 @@
       (net 179 /JTAG_TDO))
   )
 
-  (module B1_27 (layer Bottom) (tedit 59923CA8) (tstamp 59937E37)
+  (module PocketBeagle.pretty:B1_27 (layer Bottom) (tedit 59923CA8) (tstamp 59937E37)
     (at 170.5011 107.2536 270)
     (descr "TEST PAD")
     (tags "TEST PAD")
@@ -1127,7 +1157,7 @@
       (net 180 /JTAG_TDI))
   )
 
-  (module B1_27 (layer Bottom) (tedit 59923BE2) (tstamp 59937E30)
+  (module PocketBeagle.pretty:B1_27 (layer Bottom) (tedit 59923BE2) (tstamp 59937E30)
     (at 172.0011 103.8786 270)
     (descr "TEST PAD")
     (tags "TEST PAD")
@@ -1148,7 +1178,7 @@
       (net 178 /JTAG_TCK))
   )
 
-  (module 0603-LED (layer Top) (tedit 59923AD9) (tstamp 5992061C)
+  (module PocketBeagle.pretty:0603-LED (layer Top) (tedit 59923AD9) (tstamp 5992061C)
     (at 124.6841 95.0716 90)
     (path /59921FBF)
     (fp_text reference PWR81 (at -1.2706 -1.5195 90) (layer F.SilkS)
@@ -1182,7 +1212,7 @@
       (net 8 VDD_3V3AUX))
   )
 
-  (module MINI_PUSHBUTTON (layer Top) (tedit 599248E8) (tstamp 59920648)
+  (module PocketBeagle.pretty:MINI_PUSHBUTTON (layer Top) (tedit 599248E8) (tstamp 59920648)
     (at 129.2561 108.2796)
     (path /59921EF7)
     (fp_text reference SW1 (at 1.8841 1.5754) (layer F.SilkS) hide
@@ -1210,7 +1240,7 @@
       (net 24 "/(U1.T11)PWR.BTN"))
   )
 
-  (module B1_27 (layer Bottom) (tedit 59923D0A) (tstamp 59937E76)
+  (module PocketBeagle.pretty:B1_27 (layer Bottom) (tedit 59923D0A) (tstamp 59937E76)
     (at 145.6391 109.4226 180)
     (descr "TEST PAD")
     (tags "TEST PAD")
@@ -1231,7 +1261,7 @@
       (net 154 /N$9))
   )
 
-  (module B1_27 (layer Bottom) (tedit 59923D94) (tstamp 59937E5A)
+  (module PocketBeagle.pretty:B1_27 (layer Bottom) (tedit 59923D94) (tstamp 59937E5A)
     (at 137.8921 109.4226 180)
     (descr "TEST PAD")
     (tags "TEST PAD")
@@ -1252,7 +1282,7 @@
       (net 153 /N$11))
   )
 
-  (module B1_27 (layer Bottom) (tedit 59923DC2) (tstamp 59937E53)
+  (module PocketBeagle.pretty:B1_27 (layer Bottom) (tedit 59923DC2) (tstamp 59937E53)
     (at 135.6061 109.4226 180)
     (descr "TEST PAD")
     (tags "TEST PAD")
@@ -1273,7 +1303,7 @@
       (net 158 /N$10))
   )
 
-  (module B1_27 (layer Bottom) (tedit 59923D39) (tstamp 59937E4C)
+  (module PocketBeagle.pretty:B1_27 (layer Bottom) (tedit 59923D39) (tstamp 59937E4C)
     (at 148.1791 109.4226 180)
     (descr "TEST PAD")
     (tags "TEST PAD")
@@ -1294,7 +1324,7 @@
       (net 159 /N$7))
   )
 
-  (module B1_27 (layer Bottom) (tedit 59922D6D) (tstamp 59937E29)
+  (module PocketBeagle.pretty:B1_27 (layer Bottom) (tedit 59922D6D) (tstamp 59937E29)
     (at 150.7191 101.1676 180)
     (descr "TEST PAD")
     (tags "TEST PAD")
@@ -1315,7 +1345,7 @@
       (net 133 "/(U1.M2)EEPROM.WP"))
   )
 
-  (module 0603-LED (layer Top) (tedit 59920A70) (tstamp 599205DA)
+  (module PocketBeagle.pretty:0603-LED (layer Top) (tedit 59920A70) (tstamp 599205DA)
     (at 123.6681 112.5976)
     (path /59924157)
     (fp_text reference USR3 (at -0.7 1.7 90) (layer F.SilkS)
@@ -1349,7 +1379,7 @@
       (net 123 "/(U1.P14)USR3"))
   )
 
-  (module 0603-LED (layer Top) (tedit 59920A60) (tstamp 599205F0)
+  (module PocketBeagle.pretty:0603-LED (layer Top) (tedit 59920A60) (tstamp 599205F0)
     (at 125.9541 112.5976)
     (path /5992408F)
     (fp_text reference USR2 (at -0.7 1.7 90) (layer F.SilkS)
@@ -1383,7 +1413,7 @@
       (net 116 "/(U1.R14)USR2"))
   )
 
-  (module 0603-LED (layer Top) (tedit 59920A55) (tstamp 59920606)
+  (module PocketBeagle.pretty:0603-LED (layer Top) (tedit 59920A55) (tstamp 59920606)
     (at 128.2401 112.5976)
     (path /59923FC7)
     (fp_text reference USR1 (at -0.7 1.7 90) (layer F.SilkS)
@@ -1417,7 +1447,7 @@
       (net 109 "/(U1.T14)USR1"))
   )
 
-  (module 0603-LED (layer Top) (tedit 59920A38) (tstamp 59920632)
+  (module PocketBeagle.pretty:0603-LED (layer Top) (tedit 59920A38) (tstamp 59920632)
     (at 130.5261 112.5976)
     (path /59923EFF)
     (fp_text reference USR0 (at -0.7 1.7 90) (layer F.SilkS)
@@ -1451,7 +1481,7 @@
       (net 124 "/(U1.P13)USR0"))
   )
 
-  (module "SON-6(TI)-DRY" (layer Top) (tedit 5992152A) (tstamp 59920658)
+  (module "PocketBeagle.pretty:SON-6(TI)-DRY" (layer Top) (tedit 5992152A) (tstamp 59920658)
     (at 131.0341 102.9456 90)
     (path /59923E37)
     (fp_text reference U3 (at -1.1182 1.4015) (layer F.SilkS)
@@ -1477,7 +1507,7 @@
       (net 76 "/(U1.K15)USBC.D+"))
   )
 
-  (module CRYSTAL_5X3.2MM (layer Top) (tedit 59921526) (tstamp 59920664)
+  (module PocketBeagle.pretty:CRYSTAL_5X3.2MM (layer Top) (tedit 59921526) (tstamp 59920664)
     (at 128.6211 98.6276 90)
     (path /599269F7)
     (fp_text reference Y1 (at -2.5914 -1.4179 90) (layer F.SilkS)
@@ -1498,7 +1528,7 @@
       (net 129 /OSC.OUT))
   )
 
-  (module "10118192-0001LF(MICRO-USB-B-AMPHENOL-FCI)" (layer Top) (tedit 59920A49) (tstamp 5992066F)
+  (module "PocketBeagle.pretty:10118192-0001LF(MICRO-USB-B-AMPHENOL-FCI)" (layer Top) (tedit 59920A49) (tstamp 5992066F)
     (at 122.4511 105.0036 270)
     (path /59926867)
     (fp_text reference X1 (at -4.9022 0.8105) (layer F.SilkS)
@@ -1580,7 +1610,7 @@
       (net 10 CGND))
   )
 
-  (module "SC70(TI-DCK)" (layer Top) (tedit 599214E4) (tstamp 599206AC)
+  (module "PocketBeagle.pretty:SC70(TI-DCK)" (layer Top) (tedit 599214E4) (tstamp 599206AC)
     (at 124.6841 98.6276 90)
     (path /59923D6F)
     (fp_text reference U2 (at -1.1436 0.8681) (layer F.SilkS)
@@ -1608,7 +1638,7 @@
       (net 1 GND))
   )
 
-  (module MICROSD (layer Top) (tedit 599216F5) (tstamp 599206BC)
+  (module PocketBeagle.pretty:MICROSD (layer Top) (tedit 599216F5) (tstamp 599206BC)
     (at 158.4647 107.2876)
     (path /5992692F)
     (fp_text reference X2 (at 15.44148 -8.81688) (layer F.SilkS)
@@ -1658,7 +1688,7 @@
       (net 103 "/(U1.C16)MMC0.D2"))
   )
 
-  (module RN0804 (layer Top) (tedit 0) (tstamp 599206D9)
+  (module PocketBeagle.pretty:RN0804 (layer Top) (tedit 0) (tstamp 599206D9)
     (at 155.1387 105.8158 270)
     (path /599225FF)
     (fp_text reference R8 (at 1.8342 -1.9613 90) (layer F.SilkS)
@@ -1687,7 +1717,7 @@
       (net 95 "/(U1.J2)LCD.D7.G4"))
   )
 
-  (module RN0804 (layer Top) (tedit 0) (tstamp 599206E6)
+  (module PocketBeagle.pretty:RN0804 (layer Top) (tedit 0) (tstamp 599206E6)
     (at 155.1387 103.3774 270)
     (path /59922537)
     (fp_text reference R7 (at -0.8774 -2.0613 90) (layer F.SilkS)
@@ -1716,7 +1746,7 @@
       (net 81 "/(U1.K1)LCD.D11.R3"))
   )
 
-  (module RN0804 (layer Top) (tedit 0) (tstamp 599206F3)
+  (module PocketBeagle.pretty:RN0804 (layer Top) (tedit 0) (tstamp 599206F3)
     (at 155.1387 100.939 270)
     (path /5992246F)
     (fp_text reference R6 (at -0.289 -2.0113 90) (layer F.SilkS)
@@ -1745,7 +1775,7 @@
       (net 91 "/(U1.M3)LCD.D15.R7"))
   )
 
-  (module OSD335X-BGA-256 locked (layer Top) (tedit 0) (tstamp 59920700)
+  (module PocketBeagle.pretty:OSD335X-BGA-256 locked (layer Top) (tedit 0) (tstamp 59920700)
     (at 143.0991 104.9776 90)
     (path /59923AB3)
     (fp_text reference U1 (at 0 0 90) (layer F.SilkS) hide
@@ -2284,7 +2314,7 @@
       (net 44 "/(U1.A1)PWM0A"))
   )
 
-  (module 0402 (layer Top) (tedit 59921506) (tstamp 59920818)
+  (module PocketBeagle.pretty:0402 (layer Top) (tedit 59921506) (tstamp 59920818)
     (at 131.4151 100.2786 180)
     (path /599206BF)
     (fp_text reference C3 (at -0.7919 -0.6102) (layer F.SilkS)
@@ -2303,7 +2333,7 @@
       (net 130 /OSC.GND))
   )
 
-  (module 0402 (layer Top) (tedit 59921697) (tstamp 59920821)
+  (module PocketBeagle.pretty:0402 (layer Top) (tedit 59921697) (tstamp 59920821)
     (at 156.7389 105.13 90)
     (path /5992084F)
     (fp_text reference C5 (at 0.73 0.4111 90) (layer F.SilkS)
@@ -2322,7 +2352,7 @@
       (net 7 VDD_3V3B))
   )
 
-  (module 0603 (layer Top) (tedit 59921691) (tstamp 5992082A)
+  (module PocketBeagle.pretty:0603 (layer Top) (tedit 59921691) (tstamp 5992082A)
     (at 155.9007 110.2354 180)
     (path /59920917)
     (fp_text reference C6 (at -0.7493 -0.7646) (layer F.SilkS)
@@ -2341,7 +2371,7 @@
       (net 7 VDD_3V3B))
   )
 
-  (module 0402 (layer Top) (tedit 5992161E) (tstamp 59920833)
+  (module PocketBeagle.pretty:0402 (layer Top) (tedit 5992161E) (tstamp 59920833)
     (at 128.4941 105.8666)
     (path /59922217)
     (fp_text reference R3 (at 0.8935 0.4578) (layer F.SilkS)
@@ -2360,7 +2390,7 @@
       (net 1 GND))
   )
 
-  (module RN0804 (layer Top) (tedit 0) (tstamp 59920858)
+  (module PocketBeagle.pretty:RN0804 (layer Top) (tedit 0) (tstamp 59920858)
     (at 161.0823 95.8336)
     (path /5992278F)
     (fp_text reference R10 (at -1.1323 1.9164 180) (layer F.SilkS)
@@ -2389,7 +2419,7 @@
       (net 103 "/(U1.C16)MMC0.D2"))
   )
 
-  (module 0402 (layer Top) (tedit 599214FA) (tstamp 59920865)
+  (module PocketBeagle.pretty:0402 (layer Top) (tedit 599214FA) (tstamp 59920865)
     (at 131.4151 96.9766 180)
     (path /599205F7)
     (fp_text reference C2 (at -0.7157 1.2694) (layer F.SilkS)
@@ -2408,7 +2438,7 @@
       (net 130 /OSC.GND))
   )
 
-  (module 0402 (layer Top) (tedit 5992151F) (tstamp 5992086E)
+  (module PocketBeagle.pretty:0402 (layer Top) (tedit 5992151F) (tstamp 5992086E)
     (at 131.4151 98.6276 90)
     (path /5992214F)
     (fp_text reference R2 (at 0.7868 -1.2909 90) (layer F.SilkS)
@@ -2427,7 +2457,7 @@
       (net 129 /OSC.OUT))
   )
 
-  (module 0603 (layer Top) (tedit 0) (tstamp 59920877)
+  (module PocketBeagle.pretty:0603 (layer Top) (tedit 0) (tstamp 59920877)
     (at 127.7321 102.9456)
     (path /59920C37)
     (fp_text reference FB1 (at -1.2655 1.8548) (layer F.SilkS)
@@ -2446,7 +2476,7 @@
       (net 12 VBUS.RAW))
   )
 
-  (module 0402 (layer Top) (tedit 599214F2) (tstamp 59920880)
+  (module PocketBeagle.pretty:0402 (layer Top) (tedit 599214F2) (tstamp 59920880)
     (at 129.7641 102.9456 90)
     (path /59920787)
     (fp_text reference C4 (at -1.0928 0.7919 180) (layer F.SilkS)
@@ -2465,7 +2495,7 @@
       (net 5 USB_DC))
   )
 
-  (module 0402 (layer Top) (tedit 599214DF) (tstamp 59920889)
+  (module PocketBeagle.pretty:0402 (layer Top) (tedit 599214DF) (tstamp 59920889)
     (at 124.6841 93.5476)
     (path /59922087)
     (fp_text reference R1 (at -0.8083 -0.5328 180) (layer F.SilkS)
@@ -2484,7 +2514,7 @@
       (net 1 GND))
   )
 
-  (module 0402 (layer Top) (tedit 59920BF1) (tstamp 59920892)
+  (module PocketBeagle.pretty:0402 (layer Top) (tedit 59920BF1) (tstamp 59920892)
     (at 124.6841 96.5956 180)
     (path /5992052F)
     (fp_text reference C1 (at -0.8427 -0.4832 180) (layer F.SilkS)
@@ -2503,36 +2533,7 @@
       (net 4 VDD_RTC))
   )
 
-  (module RN0804 (layer Top) (tedit 0) (tstamp 5992089B)
-    (at 155.1387 97.3576 270)
-    (path /599223A7)
-    (fp_text reference R5 (at -0.8076 -1.2113 90) (layer F.SilkS)
-      (effects (font (size 0.77216 0.77216) (thickness 0.115824)) (justify right top))
-    )
-    (fp_text value 10k (at 0 0 270) (layer F.SilkS) hide
-      (effects (font (thickness 0.15)) (justify right top))
-    )
-    (fp_line (start 0 0) (end 0 0) (layer F.SilkS) (width 0.254))
-    (fp_line (start 0 0) (end 0 0) (layer F.SilkS) (width 0.254))
-    (pad 7 smd rect (at -0.25 -0.5 270) (size 0.3 0.5) (layers Top F.Paste F.Mask)
-      (net 42 "/(U1.F3)AIN5~3.3V"))
-    (pad 6 smd rect (at 0.25 -0.5 270) (size 0.3 0.5) (layers Top F.Paste F.Mask)
-      (net 72 "/(U1.F2)AIN6~3.3V"))
-    (pad 3 smd rect (at 0.25 0.5 270) (size 0.3 0.5) (layers Top F.Paste F.Mask)
-      (net 86 "/(U1.C9)AIN6~1.8V"))
-    (pad 2 smd rect (at -0.25 0.5 270) (size 0.3 0.5) (layers Top F.Paste F.Mask)
-      (net 87 "/(U1.C8)AIN5~1.8V"))
-    (pad 8 smd rect (at -0.801081 -0.5 270) (size 0.497841 0.5) (layers Top F.Paste F.Mask)
-      (net 1 GND))
-    (pad 5 smd rect (at 0.801081 -0.5 270) (size 0.497841 0.5) (layers Top F.Paste F.Mask)
-      (net 1 GND))
-    (pad 4 smd rect (at 0.801081 0.5 270) (size 0.497841 0.5) (layers Top F.Paste F.Mask)
-      (net 86 "/(U1.C9)AIN6~1.8V"))
-    (pad 1 smd rect (at -0.801081 0.5 270) (size 0.497841 0.5) (layers Top F.Paste F.Mask)
-      (net 87 "/(U1.C8)AIN5~1.8V"))
-  )
-
-  (module RN0804 (layer Top) (tedit 0) (tstamp 599208A8)
+  (module PocketBeagle.pretty:RN0804 (layer Top) (tedit 0) (tstamp 599208A8)
     (at 163.9779 95.8336 180)
     (path /59922857)
     (fp_text reference R11 (at -1.2491 -1.14868 180) (layer F.SilkS)
@@ -2561,7 +2562,7 @@
       (net 108 "Net-(R11-Pad1)"))
   )
 
-  (module RN0804 (layer Top) (tedit 0) (tstamp 599208B5)
+  (module PocketBeagle.pretty:RN0804 (layer Top) (tedit 0) (tstamp 599208B5)
     (at 155.1387 108.2542 90)
     (path /599226C7)
     (fp_text reference R9 (at 0.5042 1.2113 90) (layer F.SilkS)
@@ -2590,7 +2591,7 @@
       (net 1 GND))
   )
 
-  (module 0603 (layer Top) (tedit 0) (tstamp 599208C2)
+  (module PocketBeagle.pretty:0603 (layer Top) (tedit 0) (tstamp 599208C2)
     (at 171.7503 114.1978 180)
     (path /59920CFF)
     (fp_text reference FB2 (at 1.1131 0.8376 180) (layer F.SilkS)
@@ -2609,7 +2610,7 @@
       (net 10 CGND))
   )
 
-  (module 0402 (layer Top) (tedit 59921671) (tstamp 59920961)
+  (module PocketBeagle.pretty:0402 (layer Top) (tedit 59921671) (tstamp 59920961)
     (at 167.5593 114.1978)
     (path /599209DF)
     (fp_text reference C7 (at -1.0093 -0.2978) (layer F.SilkS)
@@ -2628,7 +2629,7 @@
       (net 60 "/(U1.B7)VREF+"))
   )
 
-  (module 0402 (layer Top) (tedit 59921685) (tstamp 5992096A)
+  (module PocketBeagle.pretty:0402 (layer Top) (tedit 59921685) (tstamp 5992096A)
     (at 162.3777 113.893 180)
     (path /5992291F)
     (fp_text reference R12 (at -1.2999 -0.534) (layer F.SilkS)
