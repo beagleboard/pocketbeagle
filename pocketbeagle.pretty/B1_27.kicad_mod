@@ -1,4 +1,4 @@
-(module B1_27 (layer F.Cu) (tedit 200000)
+(module B1_27 (layer F.Cu) (tedit 59925F75)
   (descr "TEST PAD")
   (tags "TEST PAD")
   (attr smd)
@@ -13,5 +13,5 @@
   (fp_text user >TP_SIGNAL_NAME (at 6.86308 1.40462) (layer F.SilkS)
     (effects (font (size 0.99822 0.99822) (thickness 0.0762)))
   )
-  (pad TP smd circle (at 0 0) (size 1.27 1.27) (layers F.Cu F.Paste F.Mask))
+  (pad TP smd circle (at 0 0) (size 1.27 1.27) (layers F.Cu F.Mask))
 )
