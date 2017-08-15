@@ -10,6 +10,13 @@
   )
 
   (page A4)
+  (title_block
+    (title "PocketBeagle KiCAD")
+    (date 2017-08-14)
+    (comment 1 "Prototyped by: GHI Electronics, LLC")
+    (comment 2 "Converted to KiCAD: QWERTY Embedded Design, LLC")
+  )
+
   (layers
     (0 Top signal)
     (1 VDD signal)
@@ -2652,7 +2659,7 @@
   (gr_line (start 135.1534 108.21162) (end 136.82218 108.21162) (layer B.SilkS) (width 0.2))
   (gr_line (start 146.87042 108.23194) (end 146.40306 108.6993) (layer B.SilkS) (width 0.2))
   (gr_line (start 148.70176 108.23194) (end 146.87042 108.23194) (layer B.SilkS) (width 0.2))
-  (gr_text OSD3358 (at 154.2542 114.5032) (layer F.SilkS) (tstamp 309D550)
+  (gr_text OSD3358 (at 154.20594 114.87404) (layer F.SilkS) (tstamp 309D550)
     (effects (font (size 0.9652 0.9652) (thickness 0.1524)) (justify left))
   )
   (gr_line (start 166.0011 87.5036) (end 131.0011 87.5036) (layer Edge.Cuts) (width 0.15) (tstamp 2142D10))
