@@ -1,0 +1,11 @@
+(module FIDUCIAL_40MIL (layer F.Cu) (tedit 59925435)
+  (attr smd)
+  (fp_text reference FUD1 (at 0.3 2.1) (layer F.SilkS) hide
+    (effects (font (thickness 0.15)))
+  )
+  (fp_text value FIDUCIAL (at -0.1 -2.2) (layer F.SilkS) hide
+    (effects (font (thickness 0.15)))
+  )
+  (pad P$1 smd circle (at 0 0) (size 1.016 1.016) (layers F.Cu F.Mask)
+    (solder_mask_margin 0.35) (clearance 0.35))
+)
