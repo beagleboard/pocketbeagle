@@ -3213,7 +3213,7 @@
   (gr_text 47 (at 147.2266 90.1821 -270) (layer B.SilkS) (tstamp 772A1F0)
     (effects (font (size 1.2065 1.2065) (thickness 0.1524)) (justify right mirror))
   )
-  (gr_text - (at 144.6866 90.1821 -270) (layer B.SilkS) (tstamp 772A900)
+  (gr_text T (at 144.653 89.916 -270) (layer B.SilkS) (tstamp 772A900)
     (effects (font (size 1.2065 1.2065) (thickness 0.1524)) (justify right mirror))
   )
   (gr_text + (at 142.1466 90.1821 -270) (layer B.SilkS) (tstamp 772B010)
