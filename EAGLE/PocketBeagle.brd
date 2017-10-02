@@ -1342,7 +1342,7 @@ Try to move back 75 Mils &lt;---</text>
 <wire x1="45" y1="0" x2="55" y2="10" width="0" layer="46" curve="90"/>
 <wire x1="55" y1="10" x2="55" y2="25" width="0" layer="46"/>
 <wire x1="55" y1="25" x2="45" y2="35" width="0" layer="46" curve="90"/>
-<text x="27.5082" y="33.2486" size="1.27" layer="21" ratio="15" align="bottom-center">PocketBeagle Rev A2</text>
+<text x="27.5082" y="33.2486" size="1.27" layer="21" ratio="15" align="bottom-center">PocketBeagle Rev A2a</text>
 <text x="27.5082" y="0.8382" size="1.27" layer="21" ratio="15" align="bottom-center">beagleboard.org/pocket</text>
 <wire x1="24.9682" y1="4.8006" x2="22.4282" y2="4.8006" width="0.254" layer="22"/>
 <wire x1="22.4282" y1="4.8006" x2="19.8882" y2="4.8006" width="0.254" layer="22"/>

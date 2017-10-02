@@ -3057,7 +3057,7 @@
   (gr_arc (start 166.0011 112.5036) (end 166.0011 122.5036) (angle -90) (layer Dwgs.User) (width 0.15) (tstamp 2161710))
   (gr_line (start 176.0011 112.5036) (end 176.0011 97.5036) (layer Dwgs.User) (width 0.15) (tstamp 2161CC0))
   (gr_arc (start 166.0011 97.5036) (end 176.0011 97.5036) (angle -90) (layer Dwgs.User) (width 0.15) (tstamp 21621B0))
-  (gr_text "PocketBeagle Rev A2" (at 148.5093 89.255) (layer F.SilkS) (tstamp 2162760)
+  (gr_text "PocketBeagle Rev A2a" (at 148.5093 89.255) (layer F.SilkS) (tstamp 2162760)
     (effects (font (size 1.2065 1.2065) (thickness 0.1905)) (justify bottom))
   )
   (gr_text beagleboard.org/pocket (at 148.5093 121.6654) (layer F.SilkS) (tstamp 2162E50)
