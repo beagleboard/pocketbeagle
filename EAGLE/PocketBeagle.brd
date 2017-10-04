@@ -1427,7 +1427,7 @@ Try to move back 75 Mils &lt;---</text>
 <text x="18.6055" y="6.985" size="1.27" layer="22" ratio="12" rot="SMR270" align="center-right">MOSI</text>
 <text x="16.0655" y="6.985" size="1.27" layer="22" ratio="12" rot="SMR270" align="center-right">MISO</text>
 <text x="13.5255" y="6.985" size="1.143" layer="22" ratio="12" rot="SMR270" align="center-right">CLK</text>
-<text x="10.9855" y="6.985" size="1.27" layer="22" ratio="12" rot="SMR270" align="center-right">CS</text>
+<text x="10.9855" y="6.985" size="1.27" layer="22" ratio="12" rot="SMR270" align="center-right">CS0</text>
 <text x="8.4455" y="6.985" size="1.27" layer="22" ratio="12" rot="SMR270" align="center-right">89</text>
 <text x="5.9055" y="6.985" size="1.016" layer="22" ratio="12" rot="SMR270" align="center-right">A6/87</text>
 <text x="33.8455" y="32.3215" size="1.27" layer="22" ratio="12" rot="SMR270" align="center-right">44</text>
@@ -1463,7 +1463,7 @@ Try to move back 75 Mils &lt;---</text>
 <text x="36.3855" y="27.813" size="1.27" layer="22" ratio="12" rot="SMR270" align="center-left">MOSI</text>
 <text x="38.9255" y="27.813" size="1.27" layer="22" ratio="12" rot="SMR270" align="center-left">MISO</text>
 <text x="41.4655" y="27.813" size="1.143" layer="22" ratio="12" rot="SMR270" align="center-left">CLK</text>
-<text x="44.0055" y="27.813" size="1.27" layer="22" ratio="12" rot="SMR270" align="center-left">CS</text>
+<text x="44.0055" y="27.813" size="1.27" layer="22" ratio="12" rot="SMR270" align="center-left">CS1</text>
 <text x="46.5455" y="27.813" size="1.27" layer="22" ratio="12" rot="SMR270" align="center-left">45</text>
 <text x="49.0855" y="27.813" size="1.016" layer="22" ratio="12" rot="SMR270" align="center-left">A5/86</text>
 <text x="8.4455" y="2.413" size="1.143" layer="22" ratio="12" rot="SMR270" align="center-left">EN</text>
