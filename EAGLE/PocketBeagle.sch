@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -27112,7 +27113,7 @@ Signals</text>
 <pinref part="U1" gate="C" pin="GPMC_BEN1"/>
 </segment>
 </net>
-<net name="GPIO48" class="0">
+<net name="GPIO44" class="0">
 <segment>
 <wire x1="805.18" y1="101.6" x2="774.7" y2="101.6" width="0.1524" layer="91"/>
 <label x="779.78" y="101.6" size="1.778" layer="95"/>

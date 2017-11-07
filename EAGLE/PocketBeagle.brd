@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="2.5" altunitdist="mil" altunit="mil"/>
@@ -2414,8 +2415,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="0" y="11.3" size="1.016" layer="27" ratio="12"/>
 </element>
 <element name="U2" library="GHI-IC" package="SC70(TI-DCK)" value="SN74LVC1G07DCK" x="3.683" y="23.876" smashed="yes" rot="R90">
-<attribute name="VALUE" x="6.731" y="21.717" size="1.016" layer="27" ratio="12" rot="R90"/>
 <attribute name="NAME" x="4.4958" y="22.733" size="0.8128" layer="25" ratio="15" rot="R180"/>
+<attribute name="VALUE" x="6.731" y="21.717" size="1.016" layer="27" ratio="12" rot="R90"/>
 </element>
 <element name="X2" library="microSD" package="MICROSD" value="MICROSD" x="37.4636" y="15.216" smashed="yes">
 <attribute name="NAME" x="52.8052" y="24.1568" size="0.8128" layer="25" ratio="15"/>
@@ -2451,23 +2452,23 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="7.493" y="17.137" size="1.016" layer="27" ratio="12" align="bottom-center"/>
 </element>
 <element name="TP1" library="testpad" package="B1,27" value="PTR1B1,27" x="27.178" y="13.081" smashed="yes" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="27.813" y="11.176" size="1" layer="38" rot="MR0"/>
 <attribute name="NAME" x="27.94" y="13.081" size="0.8128" layer="26" ratio="15" rot="MR180" align="center-left"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="27.813" y="11.176" size="1" layer="38" rot="MR0"/>
 <attribute name="VALUE" x="27.813" y="12.319" size="0.0254" layer="28" rot="MR0"/>
 </element>
 <element name="TP2" library="testpad" package="B1,27" value="PTR1B1,27" x="24.638" y="13.081" smashed="yes" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="25.273" y="11.176" size="1" layer="38" rot="MR0"/>
 <attribute name="NAME" x="23.749" y="13.081" size="0.8128" layer="26" ratio="15" rot="MR0" align="center-left"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="25.273" y="11.176" size="1" layer="38" rot="MR0"/>
 <attribute name="VALUE" x="25.273" y="12.319" size="0.0254" layer="28" rot="MR0"/>
 </element>
 <element name="TP3" library="testpad" package="B1,27" value="PTR1B1,27" x="14.605" y="13.081" smashed="yes" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="15.24" y="11.176" size="1" layer="38" rot="MR0"/>
 <attribute name="NAME" x="13.716" y="13.081" size="0.8128" layer="26" ratio="15" rot="MR0" align="center-left"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="15.24" y="11.176" size="1" layer="38" rot="MR0"/>
 <attribute name="VALUE" x="15.24" y="12.319" size="0.0254" layer="28" rot="MR0"/>
 </element>
 <element name="TP4" library="testpad" package="B1,27" value="PTR1B1,27" x="16.891" y="13.081" smashed="yes" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="17.526" y="11.176" size="1" layer="38" rot="MR0"/>
 <attribute name="NAME" x="17.653" y="13.081" size="0.8128" layer="26" ratio="15" rot="MR180" align="center-left"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="17.526" y="11.176" size="1" layer="38" rot="MR0"/>
 <attribute name="VALUE" x="17.526" y="12.319" size="0.0254" layer="28" rot="MR0"/>
 </element>
 <element name="R10" library="GHI-BasicComponents" package="RN0804" value="10k" x="40.0812" y="26.67" smashed="yes">
@@ -2521,43 +2522,43 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="41.3766" y="8.1106" size="1.016" layer="27" ratio="12" rot="R180" align="bottom-center"/>
 </element>
 <element name="TMS" library="testpad" package="B1,27" value="PTR1B1,27" x="49.5" y="17.5" smashed="yes" rot="MR270">
-<attribute name="TP_SIGNAL_NAME" value="" x="51.405" y="18.135" size="1" layer="38" rot="MR270"/>
 <attribute name="NAME" x="48.625" y="17.5" size="0.8128" layer="26" ratio="15" rot="MR0" align="center-left"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="51.405" y="18.135" size="1" layer="38" rot="MR270"/>
 <attribute name="VALUE" x="50.262" y="18.135" size="0.0254" layer="28" rot="MR270"/>
 </element>
 <element name="TDI" library="testpad" package="B1,27" value="PTR1B1,27" x="49.5" y="15.25" smashed="yes" rot="MR270">
-<attribute name="TP_SIGNAL_NAME" value="" x="51.405" y="15.885" size="1" layer="38" rot="MR270"/>
 <attribute name="NAME" x="48.625" y="15.75" size="0.8128" layer="26" ratio="15" rot="MR0" align="center-left"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="51.405" y="15.885" size="1" layer="38" rot="MR270"/>
 <attribute name="VALUE" x="50.262" y="15.885" size="0.0254" layer="28" rot="MR270"/>
 </element>
 <element name="TDO" library="testpad" package="B1,27" value="PTR1B1,27" x="51" y="14.125" smashed="yes" rot="MR270">
-<attribute name="TP_SIGNAL_NAME" value="" x="52.905" y="14.76" size="1" layer="38" rot="MR270"/>
 <attribute name="NAME" x="51.65" y="14.125" size="0.8128" layer="26" ratio="15" rot="MR180" align="center-left"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="52.905" y="14.76" size="1" layer="38" rot="MR270"/>
 <attribute name="VALUE" x="51.762" y="14.76" size="0.0254" layer="28" rot="MR270"/>
 </element>
 <element name="TCK" library="testpad" package="B1,27" value="PTR1B1,27" x="51" y="18.625" smashed="yes" rot="MR270">
-<attribute name="TP_SIGNAL_NAME" value="" x="52.905" y="19.26" size="1" layer="38" rot="MR270"/>
 <attribute name="NAME" x="51.65" y="18.625" size="0.8128" layer="26" ratio="15" rot="MR180" align="center-left"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="52.905" y="19.26" size="1" layer="38" rot="MR270"/>
 <attribute name="VALUE" x="51.762" y="19.26" size="0.0254" layer="28" rot="MR270"/>
 </element>
 <element name="EMU0" library="testpad" package="B1,27" value="PTR1B1,27" x="49.5" y="19.75" smashed="yes" rot="MR270">
-<attribute name="TP_SIGNAL_NAME" value="" x="51.405" y="20.385" size="1" layer="38" rot="MR270"/>
 <attribute name="NAME" x="48.625" y="19.25" size="0.8128" layer="26" ratio="15" rot="MR0" align="center-left"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="51.405" y="20.385" size="1" layer="38" rot="MR270"/>
 <attribute name="VALUE" x="50.262" y="20.385" size="0.0254" layer="28" rot="MR270"/>
 </element>
 <element name="TRST" library="testpad" package="B1,27" value="PTR1B1,27" x="51" y="16.375" smashed="yes" rot="MR270">
-<attribute name="TP_SIGNAL_NAME" value="" x="52.905" y="17.01" size="1" layer="38" rot="MR270"/>
 <attribute name="NAME" x="51.65" y="16.375" size="0.8128" layer="26" ratio="15" rot="MR180" align="center-left"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="52.905" y="17.01" size="1" layer="38" rot="MR270"/>
 <attribute name="VALUE" x="51.762" y="17.01" size="0.0254" layer="28" rot="MR270"/>
 </element>
 <element name="EMU1" library="testpad" package="B1,27" value="PTR1B1,27" x="51" y="20.875" smashed="yes" rot="MR270">
-<attribute name="TP_SIGNAL_NAME" value="" x="52.905" y="21.51" size="1" layer="38" rot="MR270"/>
 <attribute name="NAME" x="51.65" y="20.875" size="0.8128" layer="26" ratio="15" rot="MR180" align="center-left"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="52.905" y="21.51" size="1" layer="38" rot="MR270"/>
 <attribute name="VALUE" x="51.762" y="21.51" size="0.0254" layer="28" rot="MR270"/>
 </element>
 <element name="WP" library="testpad" package="B1,27" value="PTR1B1,27" x="29.718" y="21.336" smashed="yes" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="30.353" y="19.431" size="1" layer="38" rot="MR0"/>
 <attribute name="NAME" x="29.6545" y="20.066" size="0.8128" layer="26" ratio="12" rot="MR0" align="center"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="30.353" y="19.431" size="1" layer="38" rot="MR0"/>
 <attribute name="VALUE" x="30.353" y="20.574" size="0.0254" layer="28" rot="MR0"/>
 </element>
 </elements>
@@ -4417,7 +4418,7 @@ design rules under a new name.</description>
 <wire x1="14.6304" y1="28.2702" x2="15.5956" y2="27.305" width="0.1524" layer="1"/>
 <wire x1="15.5956" y1="27.305" x2="15.5956" y2="23.7236" width="0.1524" layer="1"/>
 </signal>
-<signal name="GPIO48">
+<signal name="GPIO44">
 <contactref element="U1" pad="P6"/>
 <contactref element="P2" pad="24"/>
 <wire x1="25.2984" y1="26.5684" x2="31.8262" y2="26.5684" width="0.1524" layer="1"/>
