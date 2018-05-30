@@ -1,13 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<module fritzingVersion="0.5.2b.02.18.4756" moduleId="PocketBeagle_4977521f7a734d42cc836a64bc9df60a_14" referenceFile="PocketBeagle.fzp">
+<module fritzingVersion="0.9.3" moduleId="PocketBeagle" referenceFile="PocketBeagle.fzp">
  <version>4</version>
- <date>Sat Aug 26 2017</date>
- <author>Jason Kridner</author>
- <description>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
-&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
-p, li { white-space: pre-wrap; }
-&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
-&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></description>
+ <date>Di Dez 5 2017</date>
+ <author>Jason Kridner + F.Althaus</author>
+ <description>PocketBeagle® is an ultra-tiny-yet-complete Linux-enabled, community-supported, open-source USB-key-fob computer. PocketBeagle features an incredible low cost, slick design and simple usage, making PocketBeagle® the ideal development board for beginners and professionals alike. You develop directly in a web browser and PocketBeagle® can easily be set back to factory conditions, leaving you free to experiment.<br />
+ 512MB DDR3 RAM integrated<br />
+Integrated power management<br />
+2×32-bit 200-MHz programmable real-time units (PRUs)<br />
+ARM Cortex-M3<br />
+</description>
  <title>PocketBeagle</title>
  <url>https://beagleboard.org/pocket</url>
  <tags>
@@ -15,46 +16,46 @@ p, li { white-space: pre-wrap; }
   <tag>mint-tin</tag>
   <tag>Linux</tag>
   <tag>SBC</tag>
+  <tag>PocketBeagle</tag>
  </tags>
  <properties>
-  <property name="layer"></property>
   <property name="family">Computer</property>
   <property name="variant">A2</property>
   <property name="part number"></property>
  </properties>
  <views>
   <breadboardView>
-   <layers image="breadboard/PocketBeagle_4977521f7a734d42cc836a64bc9df60a_26_breadboard.svg">
+   <layers image="breadboard/PocketBeagle_breadboard.svg">
     <layer layerId="breadboard"/>
    </layers>
   </breadboardView>
   <schematicView>
-   <layers image="schematic/PocketBeagle_4977521f7a734d42cc836a64bc9df60a_26_schematic.svg">
+   <layers image="schematic/PocketBeagle_schematic.svg">
     <layer layerId="schematic"/>
    </layers>
   </schematicView>
   <pcbView>
-   <layers image="pcb/PocketBeagle_4977521f7a734d42cc836a64bc9df60a_26_pcb.svg">
+   <layers image="pcb/PocketBeagle_pcb.svg">
     <layer layerId="copper1"/>
     <layer layerId="silkscreen"/>
     <layer layerId="copper0"/>
    </layers>
   </pcbView>
   <iconView>
-   <layers image="icon/PocketBeagle_4977521f7a734d42cc836a64bc9df60a_26_icon.svg">
+   <layers image="icon/PocketBeagle_icon.svg">
     <layer layerId="icon"/>
    </layers>
   </iconView>
  </views>
  <connectors>
-  <connector name="VIN" id="connector5" type="pad">
+  <connector id="connector5" type="pad" name="VIN">
    <description>VIN</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector5pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector5pin" terminalId="connector5terminal"/>
+     <p layer="schematic" terminalId="connector5terminal" svgId="connector5pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector5pad"/>
@@ -62,14 +63,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="3.3V" id="connector18" type="pad">
+  <connector id="connector18" type="pad" name="3.3V">
    <description>3.3V</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector18pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector18pin" terminalId="connector18terminal"/>
+     <p layer="schematic" terminalId="connector18terminal" svgId="connector18pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector18pad"/>
@@ -77,14 +78,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="VOUT" id="connector28" type="pad">
+  <connector id="connector28" type="pad" name="VOUT">
    <description>VOUT</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector28pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector28pin" terminalId="connector28terminal"/>
+     <p layer="schematic" terminalId="connector28terminal" svgId="connector28pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector28pad"/>
@@ -92,14 +93,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="VOUT" id="connector53" type="pad">
+  <connector id="connector53" type="pad" name="VOUT">
    <description>VOUT</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector53pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector53pin" terminalId="connector53terminal"/>
+     <p layer="schematic" terminalId="connector53terminal" svgId="connector53pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector53pad"/>
@@ -107,14 +108,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="3.3V" id="connector63" type="pad">
+  <connector id="connector63" type="pad" name="3.3V">
    <description>3.3V</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector63pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector63pin" terminalId="connector63terminal"/>
+     <p layer="schematic" terminalId="connector63terminal" svgId="connector63pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector63pad"/>
@@ -122,14 +123,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="POWER.BUTTON" id="connector52" type="pad">
+  <connector id="connector52" type="pad" name="POWER.BUTTON">
    <description>POWER.BUTTON</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector52pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector52pin" terminalId="connector52terminal"/>
+     <p layer="schematic" terminalId="connector52terminal" svgId="connector52pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector52pad"/>
@@ -137,14 +138,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="AIN.VREFN" id="connector21" type="pad">
+  <connector id="connector21" type="pad" name="AIN.VREFN">
    <description>AIN.VREFN</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector21pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector21pin" terminalId="connector21terminal"/>
+     <p layer="schematic" terminalId="connector21terminal" svgId="connector21pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector21pad"/>
@@ -152,14 +153,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="AIN.VREFP" id="connector22" type="pad">
+  <connector id="connector22" type="pad" name="AIN.VREFP">
    <description>AIN.VREFP</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector22pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector22pin" terminalId="connector22terminal"/>
+     <p layer="schematic" terminalId="connector22terminal" svgId="connector22pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector22pad"/>
@@ -167,14 +168,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="AIN0(1.8V)" id="connector23" type="pad">
+  <connector id="connector23" type="pad" name="AIN0(1.8V)">
    <description>AIN0(1.8V)</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector23pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector23pin" terminalId="connector23terminal"/>
+     <p layer="schematic" terminalId="connector23terminal" svgId="connector23pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector23pad"/>
@@ -182,14 +183,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="AIN1(1.8V)" id="connector25" type="pad">
+  <connector id="connector25" type="pad" name="AIN1(1.8V)">
    <description>AIN1(1.8V)</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector25pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector25pin" terminalId="connector25terminal"/>
+     <p layer="schematic" terminalId="connector25terminal" svgId="connector25pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector25pad"/>
@@ -197,14 +198,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="AIN2(1.8V)" id="connector27" type="pad">
+  <connector id="connector27" type="pad" name="AIN2(1.8V)">
    <description>AIN2(1.8V)</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector27pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector27pin" terminalId="connector27terminal"/>
+     <p layer="schematic" terminalId="connector27terminal" svgId="connector27pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector27pad"/>
@@ -212,14 +213,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="AIN3(1.8V)" id="connector29" type="pad">
+  <connector id="connector29" type="pad" name="AIN3(1.8V)">
    <description>AIN3(1.8V)</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector29pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector29pin" terminalId="connector29terminal"/>
+     <p layer="schematic" terminalId="connector29terminal" svgId="connector29pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector29pad"/>
@@ -227,14 +228,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="AIN4(1.8V)" id="connector31" type="pad">
+  <connector id="connector31" type="pad" name="AIN4(1.8V)">
    <description>AIN4(1.8V)</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector31pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector31pin" terminalId="connector31terminal"/>
+     <p layer="schematic" terminalId="connector31terminal" svgId="connector31pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector31pad"/>
@@ -242,14 +243,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="AIN5/GPIO86" id="connector75" type="pad">
+  <connector id="connector75" type="pad" name="AIN5/GPIO86">
    <description>AIN5/GPIO86</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector75pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector75pin" terminalId="connector75terminal"/>
+     <p layer="schematic" terminalId="connector75terminal" svgId="connector75pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector75pad"/>
@@ -257,14 +258,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="AIN6/GPIO87" id="connector6" type="pad">
+  <connector id="connector6" type="pad" name="AIN6/GPIO87">
    <description>AIN6/GPIO87</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector6pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector6pin" terminalId="connector6terminal"/>
+     <p layer="schematic" terminalId="connector6terminal" svgId="connector6pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector6pad"/>
@@ -272,14 +273,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="AIN7(1.8V)" id="connector76" type="pad">
+  <connector id="connector76" type="pad" name="AIN7(1.8V)">
    <description>AIN7(1.8V)</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector76pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector76pin" terminalId="connector76terminal"/>
+     <p layer="schematic" terminalId="connector76terminal" svgId="connector76pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector76pad"/>
@@ -287,14 +288,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="BAT.TEMP" id="connector56" type="pad">
+  <connector id="connector56" type="pad" name="BAT.TEMP">
    <description>BAT.TEMP</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector56pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector56pin" terminalId="connector56terminal"/>
+     <p layer="schematic" terminalId="connector56terminal" svgId="connector56pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector56pad"/>
@@ -302,14 +303,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="GPIO20" id="connector24" type="pad">
+  <connector id="connector24" type="pad" name="GPIO20">
    <description>GPIO20</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector24pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector24pin" terminalId="connector24terminal"/>
+     <p layer="schematic" terminalId="connector24terminal" svgId="connector24pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector24pad"/>
@@ -317,14 +318,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="GPIO23" id="connector43" type="pad">
+  <connector id="connector43" type="pad" name="GPIO23">
    <description>GPIO23</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector43pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector43pin" terminalId="connector43terminal"/>
+     <p layer="schematic" terminalId="connector43terminal" svgId="connector43pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector43pad"/>
@@ -332,14 +333,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="GPIO26" id="connector38" type="pad">
+  <connector id="connector38" type="pad" name="GPIO26">
    <description>GPIO26</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector38pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector38pin" terminalId="connector38terminal"/>
+     <p layer="schematic" terminalId="connector38terminal" svgId="connector38pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector38pad"/>
@@ -347,14 +348,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="GPIO27" id="connector59" type="pad">
+  <connector id="connector59" type="pad" name="GPIO27">
    <description>GPIO27</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector59pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector59pin" terminalId="connector59terminal"/>
+     <p layer="schematic" terminalId="connector59terminal" svgId="connector59pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector59pad"/>
@@ -362,14 +363,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="GPIO45" id="connector73" type="pad">
+  <connector id="connector73" type="pad" name="GPIO45">
    <description>GPIO45</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector73pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector73pin" terminalId="connector73terminal"/>
+     <p layer="schematic" terminalId="connector73terminal" svgId="connector73pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector73pad"/>
@@ -377,14 +378,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="GPIO46" id="connector62" type="pad">
+  <connector id="connector62" type="pad" name="GPIO46">
    <description>GPIO46</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector62pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector62pin" terminalId="connector62terminal"/>
+     <p layer="schematic" terminalId="connector62terminal" svgId="connector62pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector62pad"/>
@@ -392,14 +393,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="GPIO47" id="connector58" type="pad">
+  <connector id="connector58" type="pad" name="GPIO47">
    <description>GPIO47</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector58pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector58pin" terminalId="connector58terminal"/>
+     <p layer="schematic" terminalId="connector58terminal" svgId="connector58pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector58pad"/>
@@ -407,14 +408,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="GPIO48" id="connector64" type="pad">
+  <connector id="connector64" type="pad" name="GPIO48">
    <description>GPIO48</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector64pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector64pin" terminalId="connector64terminal"/>
+     <p layer="schematic" terminalId="connector64terminal" svgId="connector64pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector64pad"/>
@@ -422,14 +423,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="GPIO52" id="connector50" type="pad">
+  <connector id="connector50" type="pad" name="GPIO52">
    <description>GPIO52</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector50pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector50pin" terminalId="connector50terminal"/>
+     <p layer="schematic" terminalId="connector50terminal" svgId="connector50pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector50pad"/>
@@ -437,14 +438,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="GPIO57" id="connector46" type="pad">
+  <connector id="connector46" type="pad" name="GPIO57">
    <description>GPIO57</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector46pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector46pin" terminalId="connector46terminal"/>
+     <p layer="schematic" terminalId="connector46terminal" svgId="connector46pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector46pad"/>
@@ -452,14 +453,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="GPIO58" id="connector44" type="pad">
+  <connector id="connector44" type="pad" name="GPIO58">
    <description>GPIO58</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector44pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector44pin" terminalId="connector44terminal"/>
+     <p layer="schematic" terminalId="connector44terminal" svgId="connector44pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector44pad"/>
@@ -467,14 +468,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="GPIO59" id="connector42" type="pad">
+  <connector id="connector42" type="pad" name="GPIO59">
    <description>GPIO59</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector42pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector42pin" terminalId="connector42terminal"/>
+     <p layer="schematic" terminalId="connector42terminal" svgId="connector42pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector42pad"/>
@@ -482,14 +483,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="GPIO60" id="connector48" type="pad">
+  <connector id="connector48" type="pad" name="GPIO60">
    <description>GPIO60</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector48pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector48pin" terminalId="connector48terminal"/>
+     <p layer="schematic" terminalId="connector48terminal" svgId="connector48pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector48pad"/>
@@ -497,14 +498,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="GPIO64" id="connector60" type="pad">
+  <connector id="connector60" type="pad" name="GPIO64">
    <description>GPIO64</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector60pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector60pin" terminalId="connector60terminal"/>
+     <p layer="schematic" terminalId="connector60terminal" svgId="connector60pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector60pad"/>
@@ -512,14 +513,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="GPIO65" id="connector57" type="pad">
+  <connector id="connector57" type="pad" name="GPIO65">
    <description>GPIO65</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector57pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector57pin" terminalId="connector57terminal"/>
+     <p layer="schematic" terminalId="connector57terminal" svgId="connector57pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector57pad"/>
@@ -527,14 +528,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="GPIO89" id="connector8" type="pad">
+  <connector id="connector8" type="pad" name="GPIO89">
    <description>GPIO89</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector8pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector8pin" terminalId="connector8terminal"/>
+     <p layer="schematic" terminalId="connector8terminal" svgId="connector8pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector8pad"/>
@@ -542,14 +543,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="USB1.VIN" id="connector11" type="pad">
+  <connector id="connector11" type="pad" name="USB1.VIN">
    <description>USB1.VIN</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector11pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector11pin" terminalId="connector11terminal"/>
+     <p layer="schematic" terminalId="connector11terminal" svgId="connector11pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector11pad"/>
@@ -557,14 +558,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="USB1.VBUS" id="connector9" type="pad">
+  <connector id="connector9" type="pad" name="USB1.VBUS">
    <description>USB1.VBUS</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector9pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector9pin" terminalId="connector9terminal"/>
+     <p layer="schematic" terminalId="connector9terminal" svgId="connector9pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector9pad"/>
@@ -572,14 +573,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="USB1.ID" id="connector17" type="pad">
+  <connector id="connector17" type="pad" name="USB1.ID">
    <description>USB1.ID</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector17pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector17pin" terminalId="connector17terminal"/>
+     <p layer="schematic" terminalId="connector17terminal" svgId="connector17pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector17pad"/>
@@ -587,14 +588,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="USB1.DRVVBUS" id="connector7" type="pad">
+  <connector id="connector7" type="pad" name="USB1.DRVVBUS">
    <description>USB1.DRVVBUS</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector7pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector7pin" terminalId="connector7terminal"/>
+     <p layer="schematic" terminalId="connector7terminal" svgId="connector7pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector7pad"/>
@@ -602,14 +603,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="USB1.DP" id="connector15" type="pad">
+  <connector id="connector15" type="pad" name="USB1.DP">
    <description>USB1.DP</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector15pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector15pin" terminalId="connector15terminal"/>
+     <p layer="schematic" terminalId="connector15terminal" svgId="connector15pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector15pad"/>
@@ -617,14 +618,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="USB1.DN" id="connector13" type="pad">
+  <connector id="connector13" type="pad" name="USB1.DN">
    <description>USB1.DN</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector13pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector13pin" terminalId="connector13terminal"/>
+     <p layer="schematic" terminalId="connector13terminal" svgId="connector13pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector13pad"/>
@@ -632,14 +633,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="UART4.TX" id="connector47" type="pad">
+  <connector id="connector47" type="pad" name="UART4.TX">
    <description>UART4.TX</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector47pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector47pin" terminalId="connector47terminal"/>
+     <p layer="schematic" terminalId="connector47terminal" svgId="connector47pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector47pad"/>
@@ -647,14 +648,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="UART4.RX" id="connector45" type="pad">
+  <connector id="connector45" type="pad" name="UART4.RX">
    <description>UART4.RX</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector45pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector45pin" terminalId="connector45terminal"/>
+     <p layer="schematic" terminalId="connector45terminal" svgId="connector45pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector45pad"/>
@@ -662,14 +663,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="UART0.TX" id="connector34" type="pad">
+  <connector id="connector34" type="pad" name="UART0.TX">
    <description>UART0.TX</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector34pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector34pin" terminalId="connector34terminal"/>
+     <p layer="schematic" terminalId="connector34terminal" svgId="connector34pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector34pad"/>
@@ -677,14 +678,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="UART0.RX" id="connector36" type="pad">
+  <connector id="connector36" type="pad" name="UART0.RX">
    <description>UART0.RX</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector36pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector36pin" terminalId="connector36terminal"/>
+     <p layer="schematic" terminalId="connector36terminal" svgId="connector36pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector36pad"/>
@@ -692,14 +693,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="SPI1.MOSI" id="connector65" type="pad">
+  <connector id="connector65" type="pad" name="SPI1.MOSI">
    <description>SPI1.MOSI</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector65pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector65pin" terminalId="connector65terminal"/>
+     <p layer="schematic" terminalId="connector65terminal" svgId="connector65pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector65pad"/>
@@ -707,14 +708,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="SPI1.MISO" id="connector67" type="pad">
+  <connector id="connector67" type="pad" name="SPI1.MISO">
    <description>SPI1.MISO</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector67pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector67pin" terminalId="connector67terminal"/>
+     <p layer="schematic" terminalId="connector67terminal" svgId="connector67pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector67pad"/>
@@ -722,14 +723,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="SPI1.CS" id="connector71" type="pad">
+  <connector id="connector71" type="pad" name="SPI1.CS">
    <description>SPI1.CS</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector71pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector71pin" terminalId="connector71terminal"/>
+     <p layer="schematic" terminalId="connector71terminal" svgId="connector71pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector71pad"/>
@@ -737,14 +738,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="SPI1.CLK" id="connector69" type="pad">
+  <connector id="connector69" type="pad" name="SPI1.CLK">
    <description>SPI1.CLK</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector69pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector69pin" terminalId="connector69terminal"/>
+     <p layer="schematic" terminalId="connector69terminal" svgId="connector69pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector69pad"/>
@@ -752,14 +753,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="SPI0.MOSI" id="connector16" type="pad">
+  <connector id="connector16" type="pad" name="SPI0.MOSI">
    <description>SPI0.MOSI</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector16pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector16pin" terminalId="connector16terminal"/>
+     <p layer="schematic" terminalId="connector16terminal" svgId="connector16pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector16pad"/>
@@ -767,14 +768,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="SPI0.MISO" id="connector14" type="pad">
+  <connector id="connector14" type="pad" name="SPI0.MISO">
    <description>SPI0.MISO</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector14pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector14pin" terminalId="connector14terminal"/>
+     <p layer="schematic" terminalId="connector14terminal" svgId="connector14pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector14pad"/>
@@ -782,14 +783,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="SPI0.CS" id="connector10" type="pad">
+  <connector id="connector10" type="pad" name="SPI0.CS">
    <description>SPI0.CS</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector10pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector10pin" terminalId="connector10terminal"/>
+     <p layer="schematic" terminalId="connector10terminal" svgId="connector10pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector10pad"/>
@@ -797,14 +798,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="SPI0.CLK" id="connector12" type="pad">
+  <connector id="connector12" type="pad" name="SPI0.CLK">
    <description>SPI0.CLK</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector12pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector12pin" terminalId="connector12terminal"/>
+     <p layer="schematic" terminalId="connector12terminal" svgId="connector12pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector12pad"/>
@@ -812,14 +813,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="RESET#" id="connector66" type="pad">
+  <connector id="connector66" type="pad" name="RESET#">
    <description>RESET#</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector66pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector66pin" terminalId="connector66terminal"/>
+     <p layer="schematic" terminalId="connector66terminal" svgId="connector66pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector66pad"/>
@@ -827,14 +828,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="PWM1A" id="connector41" type="pad">
+  <connector id="connector41" type="pad" name="PWM1A">
    <description>PWM1A</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector41pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector41pin" terminalId="connector41terminal"/>
+     <p layer="schematic" terminalId="connector41terminal" svgId="connector41pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector41pad"/>
@@ -842,14 +843,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="PWM0A" id="connector40" type="pad">
+  <connector id="connector40" type="pad" name="PWM0A">
    <description>PWM0A</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector40pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector40pin" terminalId="connector40terminal"/>
+     <p layer="schematic" terminalId="connector40terminal" svgId="connector40pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector40pad"/>
@@ -857,14 +858,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="PRU1.10" id="connector39" type="pad">
+  <connector id="connector39" type="pad" name="PRU1.10">
    <description>PRU1.10</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector39pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector39pin" terminalId="connector39terminal"/>
+     <p layer="schematic" terminalId="connector39terminal" svgId="connector39pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector39pad"/>
@@ -872,14 +873,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="PRU0.7" id="connector33" type="pad">
+  <connector id="connector33" type="pad" name="PRU0.7">
    <description>PRU0.7</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector33pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector33pin" terminalId="connector33terminal"/>
+     <p layer="schematic" terminalId="connector33terminal" svgId="connector33pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector33pad"/>
@@ -887,14 +888,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="PRU0.6" id="connector68" type="pad">
+  <connector id="connector68" type="pad" name="PRU0.6">
    <description>PRU0.6</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector68pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector68pin" terminalId="connector68terminal"/>
+     <p layer="schematic" terminalId="connector68terminal" svgId="connector68pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector68pad"/>
@@ -902,14 +903,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="PRU0.5" id="connector74" type="pad">
+  <connector id="connector74" type="pad" name="PRU0.5">
    <description>PRU0.5</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector74pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector74pin" terminalId="connector74terminal"/>
+     <p layer="schematic" terminalId="connector74terminal" svgId="connector74pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector74pad"/>
@@ -917,14 +918,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="PRU0.4" id="connector35" type="pad">
+  <connector id="connector35" type="pad" name="PRU0.4">
    <description>PRU0.4</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector35pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector35pin" terminalId="connector35terminal"/>
+     <p layer="schematic" terminalId="connector35terminal" svgId="connector35pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector35pad"/>
@@ -932,14 +933,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="PRU0.3" id="connector70" type="pad">
+  <connector id="connector70" type="pad" name="PRU0.3">
    <description>PRU0.3</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector70pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector70pin" terminalId="connector70terminal"/>
+     <p layer="schematic" terminalId="connector70terminal" svgId="connector70pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector70pad"/>
@@ -947,14 +948,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="PRU0.2" id="connector72" type="pad">
+  <connector id="connector72" type="pad" name="PRU0.2">
    <description>PRU0.2</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector72pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector72pin" terminalId="connector72terminal"/>
+     <p layer="schematic" terminalId="connector72terminal" svgId="connector72pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector72pad"/>
@@ -962,14 +963,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="PRU0.1" id="connector37" type="pad">
+  <connector id="connector37" type="pad" name="PRU0.1">
    <description>PRU0.1</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector37pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector37pin" terminalId="connector37terminal"/>
+     <p layer="schematic" terminalId="connector37terminal" svgId="connector37pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector37pad"/>
@@ -977,14 +978,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="I2C2.SCL" id="connector32" type="pad">
+  <connector id="connector32" type="pad" name="I2C2.SCL">
    <description>I2C2.SCL</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector32pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector32pin" terminalId="connector32terminal"/>
+     <p layer="schematic" terminalId="connector32terminal" svgId="connector32pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector32pad"/>
@@ -992,14 +993,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="I2C2.SDA" id="connector30" type="pad">
+  <connector id="connector30" type="pad" name="I2C2.SDA">
    <description>I2C2.SDA</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector30pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector30pin" terminalId="connector30terminal"/>
+     <p layer="schematic" terminalId="connector30terminal" svgId="connector30pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector30pad"/>
@@ -1007,14 +1008,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="I2C1.SCL" id="connector49" type="pad">
+  <connector id="connector49" type="pad" name="I2C1.SCL">
    <description>I2C1.SCL</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector49pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector49pin" terminalId="connector49terminal"/>
+     <p layer="schematic" terminalId="connector49terminal" svgId="connector49pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector49pad"/>
@@ -1022,14 +1023,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="I2C1.SDA" id="connector51" type="pad">
+  <connector id="connector51" type="pad" name="I2C1.SDA">
    <description>I2C1.SDA</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector51pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector51pin" terminalId="connector51terminal"/>
+     <p layer="schematic" terminalId="connector51terminal" svgId="connector51pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector51pad"/>
@@ -1037,14 +1038,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="GND" id="connector19" type="pad">
+  <connector id="connector19" type="pad" name="GND">
    <description>GND</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector19pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector19pin" terminalId="connector19terminal"/>
+     <p layer="schematic" terminalId="connector19terminal" svgId="connector19pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector19pad"/>
@@ -1052,14 +1053,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="GND" id="connector20" type="pad">
+  <connector id="connector20" type="pad" name="GND">
    <description>GND</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector20pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector20pin" terminalId="connector20terminal"/>
+     <p layer="schematic" terminalId="connector20terminal" svgId="connector20pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector20pad"/>
@@ -1067,14 +1068,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="GND" id="connector26" type="pad">
+  <connector id="connector26" type="pad" name="GND">
    <description>GND</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector26pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector26pin" terminalId="connector26terminal"/>
+     <p layer="schematic" terminalId="connector26terminal" svgId="connector26pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector26pad"/>
@@ -1082,14 +1083,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="GND" id="connector55" type="pad">
+  <connector id="connector55" type="pad" name="GND">
    <description>GND</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector55pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector55pin" terminalId="connector55terminal"/>
+     <p layer="schematic" terminalId="connector55terminal" svgId="connector55pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector55pad"/>
@@ -1097,14 +1098,14 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="GND" id="connector61" type="pad">
+  <connector id="connector61" type="pad" name="GND">
    <description>GND</description>
    <views>
     <breadboardView>
      <p layer="breadboard" svgId="connector61pin"/>
     </breadboardView>
     <schematicView>
-     <p layer="schematic" svgId="connector61pin" terminalId="connector61terminal"/>
+     <p layer="schematic" terminalId="connector61terminal" svgId="connector61pin"/>
     </schematicView>
     <pcbView>
      <p layer="copper0" svgId="connector61pad"/>
@@ -1112,7 +1113,7 @@ p, li { white-space: pre-wrap; }
     </pcbView>
    </views>
   </connector>
-  <connector name="BAT.VIN" id="connector90" type="pad">
+  <connector id="connector90" type="pad" name="BAT.VIN">
    <description>BAT.VIN</description>
    <views>
     <breadboardView>
