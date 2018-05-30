@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<module fritzingVersion="0.9.3" moduleId="pocketbeagle_21bd5ec845b1342a73ec98583f770017_1" referenceFile="PocketBeagle.fzp">
+<module fritzingVersion="0.9.3" moduleId="PocketBeagle" referenceFile="PocketBeagle.fzp">
  <version>4</version>
- <date>Fr Dez 8 2017</date>
+ <date>Di Dez 5 2017</date>
  <author>Jason Kridner + F.Althaus</author>
- <description>PocketBeagle® is an ultra-tiny-yet-complete Linux-enabled, community-supported, open-source USB-key-fob computer. PocketBeagle features an incredible low cost, slick design and simple usage, making PocketBeagle® the ideal development board for beginners and professionals alike. You develop directly in a web browser and PocketBeagle® can easily be set back to factory conditions, leaving you free to experiment.<br/>
- 512MB DDR3 RAM integrated<br/>
-Integrated power management<br/>
-2×32-bit 200-MHz programmable real-time units (PRUs)<br/>
-ARM Cortex-M3<br/>
- </description>
+ <description>PocketBeagle® is an ultra-tiny-yet-complete Linux-enabled, community-supported, open-source USB-key-fob computer. PocketBeagle features an incredible low cost, slick design and simple usage, making PocketBeagle® the ideal development board for beginners and professionals alike. You develop directly in a web browser and PocketBeagle® can easily be set back to factory conditions, leaving you free to experiment.<br />
+ 512MB DDR3 RAM integrated<br />
+Integrated power management<br />
+2×32-bit 200-MHz programmable real-time units (PRUs)<br />
+ARM Cortex-M3<br />
+</description>
  <title>PocketBeagle</title>
  <url>https://beagleboard.org/pocket</url>
  <tags>
@@ -19,37 +19,36 @@ ARM Cortex-M3<br/>
   <tag>PocketBeagle</tag>
  </tags>
  <properties>
-  <property name="family">computer</property>
-  <property name="variant">variant 1</property>
+  <property name="family">Computer</property>
+  <property name="variant">A2</property>
   <property name="part number"></property>
-  <property name="layer"></property>
  </properties>
  <views>
   <breadboardView>
-   <layers image="breadboard/pocketbeagle_21bd5ec845b1342a73ec98583f770017_1_breadboard.svg">
+   <layers image="breadboard/PocketBeagle_breadboard.svg">
     <layer layerId="breadboard"/>
    </layers>
   </breadboardView>
   <schematicView>
-   <layers image="schematic/pocketbeagle_21bd5ec845b1342a73ec98583f770017_1_schematic.svg">
+   <layers image="schematic/PocketBeagle_schematic.svg">
     <layer layerId="schematic"/>
    </layers>
   </schematicView>
   <pcbView>
-   <layers image="pcb/pocketbeagle_21bd5ec845b1342a73ec98583f770017_1_pcb.svg">
+   <layers image="pcb/PocketBeagle_pcb.svg">
     <layer layerId="copper1"/>
     <layer layerId="silkscreen"/>
     <layer layerId="copper0"/>
    </layers>
   </pcbView>
   <iconView>
-   <layers image="icon/pocketbeagle_21bd5ec845b1342a73ec98583f770017_1_icon.svg">
+   <layers image="icon/PocketBeagle_icon.svg">
     <layer layerId="icon"/>
    </layers>
   </iconView>
  </views>
  <connectors>
-  <connector id="connector5" name="VIN" type="pad">
+  <connector id="connector5" type="pad" name="VIN">
    <description>VIN</description>
    <views>
     <breadboardView>
@@ -64,7 +63,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector18" name="3.3V" type="pad">
+  <connector id="connector18" type="pad" name="3.3V">
    <description>3.3V</description>
    <views>
     <breadboardView>
@@ -79,7 +78,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector28" name="VOUT" type="pad">
+  <connector id="connector28" type="pad" name="VOUT">
    <description>VOUT</description>
    <views>
     <breadboardView>
@@ -94,7 +93,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector53" name="VOUT" type="pad">
+  <connector id="connector53" type="pad" name="VOUT">
    <description>VOUT</description>
    <views>
     <breadboardView>
@@ -109,7 +108,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector63" name="3.3V" type="pad">
+  <connector id="connector63" type="pad" name="3.3V">
    <description>3.3V</description>
    <views>
     <breadboardView>
@@ -124,7 +123,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector52" name="POWER.BUTTON" type="pad">
+  <connector id="connector52" type="pad" name="POWER.BUTTON">
    <description>POWER.BUTTON</description>
    <views>
     <breadboardView>
@@ -139,7 +138,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector21" name="AIN.VREFN" type="pad">
+  <connector id="connector21" type="pad" name="AIN.VREFN">
    <description>AIN.VREFN</description>
    <views>
     <breadboardView>
@@ -154,7 +153,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector22" name="AIN.VREFP" type="pad">
+  <connector id="connector22" type="pad" name="AIN.VREFP">
    <description>AIN.VREFP</description>
    <views>
     <breadboardView>
@@ -169,7 +168,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector23" name="AIN0(1.8V)" type="pad">
+  <connector id="connector23" type="pad" name="AIN0(1.8V)">
    <description>AIN0(1.8V)</description>
    <views>
     <breadboardView>
@@ -184,7 +183,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector25" name="AIN1(1.8V)" type="pad">
+  <connector id="connector25" type="pad" name="AIN1(1.8V)">
    <description>AIN1(1.8V)</description>
    <views>
     <breadboardView>
@@ -199,7 +198,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector27" name="AIN2(1.8V)" type="pad">
+  <connector id="connector27" type="pad" name="AIN2(1.8V)">
    <description>AIN2(1.8V)</description>
    <views>
     <breadboardView>
@@ -214,7 +213,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector29" name="AIN3(1.8V)" type="pad">
+  <connector id="connector29" type="pad" name="AIN3(1.8V)">
    <description>AIN3(1.8V)</description>
    <views>
     <breadboardView>
@@ -229,7 +228,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector31" name="AIN4(1.8V)" type="pad">
+  <connector id="connector31" type="pad" name="AIN4(1.8V)">
    <description>AIN4(1.8V)</description>
    <views>
     <breadboardView>
@@ -244,7 +243,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector75" name="AIN5/GPIO86" type="pad">
+  <connector id="connector75" type="pad" name="AIN5/GPIO86">
    <description>AIN5/GPIO86</description>
    <views>
     <breadboardView>
@@ -259,7 +258,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector6" name="AIN6/GPIO87" type="pad">
+  <connector id="connector6" type="pad" name="AIN6/GPIO87">
    <description>AIN6/GPIO87</description>
    <views>
     <breadboardView>
@@ -274,7 +273,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector76" name="AIN7(1.8V)" type="pad">
+  <connector id="connector76" type="pad" name="AIN7(1.8V)">
    <description>AIN7(1.8V)</description>
    <views>
     <breadboardView>
@@ -289,7 +288,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector56" name="BAT.TEMP" type="pad">
+  <connector id="connector56" type="pad" name="BAT.TEMP">
    <description>BAT.TEMP</description>
    <views>
     <breadboardView>
@@ -304,7 +303,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector24" name="GPIO20" type="pad">
+  <connector id="connector24" type="pad" name="GPIO20">
    <description>GPIO20</description>
    <views>
     <breadboardView>
@@ -319,7 +318,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector43" name="GPIO23" type="pad">
+  <connector id="connector43" type="pad" name="GPIO23">
    <description>GPIO23</description>
    <views>
     <breadboardView>
@@ -334,7 +333,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector38" name="GPIO26" type="pad">
+  <connector id="connector38" type="pad" name="GPIO26">
    <description>GPIO26</description>
    <views>
     <breadboardView>
@@ -349,7 +348,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector59" name="GPIO27" type="pad">
+  <connector id="connector59" type="pad" name="GPIO27">
    <description>GPIO27</description>
    <views>
     <breadboardView>
@@ -364,7 +363,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector73" name="GPIO45" type="pad">
+  <connector id="connector73" type="pad" name="GPIO45">
    <description>GPIO45</description>
    <views>
     <breadboardView>
@@ -379,7 +378,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector62" name="GPIO46" type="pad">
+  <connector id="connector62" type="pad" name="GPIO46">
    <description>GPIO46</description>
    <views>
     <breadboardView>
@@ -394,7 +393,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector58" name="GPIO47" type="pad">
+  <connector id="connector58" type="pad" name="GPIO47">
    <description>GPIO47</description>
    <views>
     <breadboardView>
@@ -409,7 +408,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector64" name="GPIO48" type="pad">
+  <connector id="connector64" type="pad" name="GPIO48">
    <description>GPIO48</description>
    <views>
     <breadboardView>
@@ -424,7 +423,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector50" name="GPIO52" type="pad">
+  <connector id="connector50" type="pad" name="GPIO52">
    <description>GPIO52</description>
    <views>
     <breadboardView>
@@ -439,7 +438,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector46" name="GPIO57" type="pad">
+  <connector id="connector46" type="pad" name="GPIO57">
    <description>GPIO57</description>
    <views>
     <breadboardView>
@@ -454,7 +453,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector44" name="GPIO58" type="pad">
+  <connector id="connector44" type="pad" name="GPIO58">
    <description>GPIO58</description>
    <views>
     <breadboardView>
@@ -469,7 +468,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector42" name="GPIO59" type="pad">
+  <connector id="connector42" type="pad" name="GPIO59">
    <description>GPIO59</description>
    <views>
     <breadboardView>
@@ -484,7 +483,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector48" name="GPIO60" type="pad">
+  <connector id="connector48" type="pad" name="GPIO60">
    <description>GPIO60</description>
    <views>
     <breadboardView>
@@ -499,7 +498,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector60" name="GPIO64" type="pad">
+  <connector id="connector60" type="pad" name="GPIO64">
    <description>GPIO64</description>
    <views>
     <breadboardView>
@@ -514,7 +513,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector57" name="GPIO65" type="pad">
+  <connector id="connector57" type="pad" name="GPIO65">
    <description>GPIO65</description>
    <views>
     <breadboardView>
@@ -529,7 +528,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector8" name="GPIO89" type="pad">
+  <connector id="connector8" type="pad" name="GPIO89">
    <description>GPIO89</description>
    <views>
     <breadboardView>
@@ -544,7 +543,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector11" name="USB1.VIN" type="pad">
+  <connector id="connector11" type="pad" name="USB1.VIN">
    <description>USB1.VIN</description>
    <views>
     <breadboardView>
@@ -559,7 +558,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector9" name="USB1.VBUS" type="pad">
+  <connector id="connector9" type="pad" name="USB1.VBUS">
    <description>USB1.VBUS</description>
    <views>
     <breadboardView>
@@ -574,7 +573,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector17" name="USB1.ID" type="pad">
+  <connector id="connector17" type="pad" name="USB1.ID">
    <description>USB1.ID</description>
    <views>
     <breadboardView>
@@ -589,7 +588,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector7" name="USB1.DRVVBUS" type="pad">
+  <connector id="connector7" type="pad" name="USB1.DRVVBUS">
    <description>USB1.DRVVBUS</description>
    <views>
     <breadboardView>
@@ -604,7 +603,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector15" name="USB1.DP" type="pad">
+  <connector id="connector15" type="pad" name="USB1.DP">
    <description>USB1.DP</description>
    <views>
     <breadboardView>
@@ -619,7 +618,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector13" name="USB1.DN" type="pad">
+  <connector id="connector13" type="pad" name="USB1.DN">
    <description>USB1.DN</description>
    <views>
     <breadboardView>
@@ -634,7 +633,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector47" name="UART4.TX" type="pad">
+  <connector id="connector47" type="pad" name="UART4.TX">
    <description>UART4.TX</description>
    <views>
     <breadboardView>
@@ -649,7 +648,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector45" name="UART4.RX" type="pad">
+  <connector id="connector45" type="pad" name="UART4.RX">
    <description>UART4.RX</description>
    <views>
     <breadboardView>
@@ -664,7 +663,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector34" name="UART0.TX" type="pad">
+  <connector id="connector34" type="pad" name="UART0.TX">
    <description>UART0.TX</description>
    <views>
     <breadboardView>
@@ -679,7 +678,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector36" name="UART0.RX" type="pad">
+  <connector id="connector36" type="pad" name="UART0.RX">
    <description>UART0.RX</description>
    <views>
     <breadboardView>
@@ -694,7 +693,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector65" name="SPI1.MOSI" type="pad">
+  <connector id="connector65" type="pad" name="SPI1.MOSI">
    <description>SPI1.MOSI</description>
    <views>
     <breadboardView>
@@ -709,7 +708,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector67" name="SPI1.MISO" type="pad">
+  <connector id="connector67" type="pad" name="SPI1.MISO">
    <description>SPI1.MISO</description>
    <views>
     <breadboardView>
@@ -724,7 +723,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector71" name="SPI1.CS" type="pad">
+  <connector id="connector71" type="pad" name="SPI1.CS">
    <description>SPI1.CS</description>
    <views>
     <breadboardView>
@@ -739,7 +738,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector69" name="SPI1.CLK" type="pad">
+  <connector id="connector69" type="pad" name="SPI1.CLK">
    <description>SPI1.CLK</description>
    <views>
     <breadboardView>
@@ -754,7 +753,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector16" name="SPI0.MOSI" type="pad">
+  <connector id="connector16" type="pad" name="SPI0.MOSI">
    <description>SPI0.MOSI</description>
    <views>
     <breadboardView>
@@ -769,7 +768,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector14" name="SPI0.MISO" type="pad">
+  <connector id="connector14" type="pad" name="SPI0.MISO">
    <description>SPI0.MISO</description>
    <views>
     <breadboardView>
@@ -784,7 +783,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector10" name="SPI0.CS" type="pad">
+  <connector id="connector10" type="pad" name="SPI0.CS">
    <description>SPI0.CS</description>
    <views>
     <breadboardView>
@@ -799,7 +798,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector12" name="SPI0.CLK" type="pad">
+  <connector id="connector12" type="pad" name="SPI0.CLK">
    <description>SPI0.CLK</description>
    <views>
     <breadboardView>
@@ -814,7 +813,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector66" name="RESET#" type="pad">
+  <connector id="connector66" type="pad" name="RESET#">
    <description>RESET#</description>
    <views>
     <breadboardView>
@@ -829,7 +828,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector41" name="PWM1A" type="pad">
+  <connector id="connector41" type="pad" name="PWM1A">
    <description>PWM1A</description>
    <views>
     <breadboardView>
@@ -844,7 +843,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector40" name="PWM0A" type="pad">
+  <connector id="connector40" type="pad" name="PWM0A">
    <description>PWM0A</description>
    <views>
     <breadboardView>
@@ -859,7 +858,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector39" name="PRU1.10" type="pad">
+  <connector id="connector39" type="pad" name="PRU1.10">
    <description>PRU1.10</description>
    <views>
     <breadboardView>
@@ -874,7 +873,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector33" name="PRU0.7" type="pad">
+  <connector id="connector33" type="pad" name="PRU0.7">
    <description>PRU0.7</description>
    <views>
     <breadboardView>
@@ -889,7 +888,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector68" name="PRU0.6" type="pad">
+  <connector id="connector68" type="pad" name="PRU0.6">
    <description>PRU0.6</description>
    <views>
     <breadboardView>
@@ -904,7 +903,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector74" name="PRU0.5" type="pad">
+  <connector id="connector74" type="pad" name="PRU0.5">
    <description>PRU0.5</description>
    <views>
     <breadboardView>
@@ -919,7 +918,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector35" name="PRU0.4" type="pad">
+  <connector id="connector35" type="pad" name="PRU0.4">
    <description>PRU0.4</description>
    <views>
     <breadboardView>
@@ -934,7 +933,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector70" name="PRU0.3" type="pad">
+  <connector id="connector70" type="pad" name="PRU0.3">
    <description>PRU0.3</description>
    <views>
     <breadboardView>
@@ -949,7 +948,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector72" name="PRU0.2" type="pad">
+  <connector id="connector72" type="pad" name="PRU0.2">
    <description>PRU0.2</description>
    <views>
     <breadboardView>
@@ -964,7 +963,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector37" name="PRU0.1" type="pad">
+  <connector id="connector37" type="pad" name="PRU0.1">
    <description>PRU0.1</description>
    <views>
     <breadboardView>
@@ -979,7 +978,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector32" name="I2C2.SCL" type="pad">
+  <connector id="connector32" type="pad" name="I2C2.SCL">
    <description>I2C2.SCL</description>
    <views>
     <breadboardView>
@@ -994,7 +993,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector30" name="I2C2.SDA" type="pad">
+  <connector id="connector30" type="pad" name="I2C2.SDA">
    <description>I2C2.SDA</description>
    <views>
     <breadboardView>
@@ -1009,7 +1008,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector49" name="I2C1.SCL" type="pad">
+  <connector id="connector49" type="pad" name="I2C1.SCL">
    <description>I2C1.SCL</description>
    <views>
     <breadboardView>
@@ -1024,7 +1023,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector51" name="I2C1.SDA" type="pad">
+  <connector id="connector51" type="pad" name="I2C1.SDA">
    <description>I2C1.SDA</description>
    <views>
     <breadboardView>
@@ -1039,7 +1038,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector19" name="GND" type="pad">
+  <connector id="connector19" type="pad" name="GND">
    <description>GND</description>
    <views>
     <breadboardView>
@@ -1054,7 +1053,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector20" name="GND" type="pad">
+  <connector id="connector20" type="pad" name="GND">
    <description>GND</description>
    <views>
     <breadboardView>
@@ -1069,7 +1068,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector26" name="GND" type="pad">
+  <connector id="connector26" type="pad" name="GND">
    <description>GND</description>
    <views>
     <breadboardView>
@@ -1084,7 +1083,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector55" name="GND" type="pad">
+  <connector id="connector55" type="pad" name="GND">
    <description>GND</description>
    <views>
     <breadboardView>
@@ -1099,7 +1098,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector61" name="GND" type="pad">
+  <connector id="connector61" type="pad" name="GND">
    <description>GND</description>
    <views>
     <breadboardView>
@@ -1114,7 +1113,7 @@ ARM Cortex-M3<br/>
     </pcbView>
    </views>
   </connector>
-  <connector id="connector90" name="BAT.VIN" type="pad">
+  <connector id="connector90" type="pad" name="BAT.VIN">
    <description>BAT.VIN</description>
    <views>
     <breadboardView>
