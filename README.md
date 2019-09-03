@@ -1,6 +1,8 @@
 # BeagleBoard.org PocketBeagle
 _An even more bare-bones-BeagleBone made super-tiny, affordable and cloneable_
 
+![](OSHW_mark_US000083.png)
+
 [PocketBeagle](https://beagleboard.org/pocket) is an ultra-tiny-yet-complete open-source USB-key-fob computer. PocketBeagle features an incredible low cost, slick design and simple usage, making PocketBeagle the ideal development board for beginners and professionals alike.
 
 # Terms
