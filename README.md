@@ -5,6 +5,8 @@ _An even more bare-bones-BeagleBone made super-tiny, affordable and cloneable_
 
 [![](OSHW_mark_US000083.png)](https://certification.oshwa.org/us000083.html)
 
+See [documentation](https://docs.beagleboard.org/latest/boards/pocketbeagle/original/index.html) for usage details and [the forum](https://forum.beagleboard.org/tag/pocketbeagle) for support.
+
 # Terms
 These design materials are *NOT SUPPORTED* and *DO NOT* constitute a reference design. Only “community” support is allowed via resources at [BeagleBoard.org/discuss](https://beagleboard.org/discuss).
 
